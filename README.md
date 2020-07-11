@@ -21,14 +21,6 @@ Felipe César!
         Gosto de aprender coisas novas
       </td>
     </tr>
-  <tr>
-    <td>
-      <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin" width="42" height="42" style="border:5px solid black">
-    </td>
-    <td>
-      Linkedin
-    </td>
-  </tr>
   
   </table>
   
