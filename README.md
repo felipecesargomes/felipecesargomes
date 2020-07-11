@@ -1,16 +1,35 @@
-### Hi there 👋
+# ⚡ Felipe César ⚡
 
-<!--
-**felipecesargomes/felipecesargomes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Meu nome é Felipe César.
+
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<table>
+  <tr>
+    <td>
+<img src="https://image.flaticon.com/icons/svg/1803/1803581.svg" alt="desenvolvedor" width="42" height="42" style="border:5px solid black">
+      </td>
+    <td>
+      Gosto de Desenvolvimento Web
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://img2.gratispng.com/20180712/pl/kisspng-computer-icons-big-data-clip-art-learn-more-5b47d641892366.2222631315314345615617.jpg" alt="aprender" width="42" height="42" style="border:5px solid black">
+      </td>
+      <td>
+        Gosto de aprender coisas novas
+      </td>
+    </tr>
+  <tr>
+    <td>
+      <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin" width="42" height="42" style="border:5px solid black">
+    </td>
+    <td>
+      Linkedin
+    </td>
+  </tr>
+  
+  </table>
+  
