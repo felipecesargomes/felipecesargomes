@@ -2,7 +2,7 @@
 
 ### Quem sou eu?
 
-Felipe César!
+Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor do que era ontem :grinning:.
 
 <table>
   <tr>
