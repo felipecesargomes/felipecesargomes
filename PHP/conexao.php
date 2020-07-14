@@ -34,5 +34,3 @@ while($row_usuario = mysqli_fetch_assoc($resultado_usuario)) {
     echo "Nome: " . $row_usuario['nome'] . "<br>";
     echo "Email: " . $row_usuario['email'] . "<br><hr>";
 }
-
-?>

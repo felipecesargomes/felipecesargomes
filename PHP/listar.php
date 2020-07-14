@@ -1,19 +1,24 @@
-<html>
+<?php
+session_start();
+include_once("conexaofabrica.php");
+?>
 
+
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>Crud - Listar</title>
 </head>
 
 <body>
+  <a href="inserir.php">Cadastrar</a>
 
   <?php
-  $servidor = "localhost";
-  $usuario = "root";
-  $senha = "";
-  $dbname = "teste";
-
-  $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+  echo "<h1>Listar usuários</h1>";
+  if (isset($_SESSION['msg'])) {
+    echo $_SESSION['msg'];
+    unset($_SESSION['msg']);
+  }
 
   $result_qnt_user = "SELECT COUNT(idusuarios) as qnt_usuarios from usuarios";
   $resultado_qnt_user = mysqli_query($conn, $result_qnt_user);
@@ -28,9 +33,10 @@
     echo "Nome: " . $row_usuarios['nomeuser'] . "<br>";
     echo "Email: " . $row_usuarios['emailuser'] . "<br>";
     echo "Situação: " . $row_usuarios['nome_sit'] . "<br>";
-    echo "Nível de Acesso: " . $row_usuarios['nivac_nome'] . "<br><hr>";
+    echo "Nível de Acesso: " . $row_usuarios['nivac_nome'] . "<br>";
+    echo "<a href='editar.php?id=" . $row_usuarios['iduser'] . "'>Editar</a><br>";
+    echo "<a href='projeto_crud_proc_apagar.php?id=" . $row_usuarios['iduser'] . "'>Apagar</a><hr>";
   }
-
   ?>
 
 </body>
