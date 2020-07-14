@@ -1,5 +1,5 @@
 <?php
-
+//teste
 //Parametros da conexão em uma string
 $servidor = "localhost";
 $usuario = "root";

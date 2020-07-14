@@ -1,5 +1,5 @@
 <?php
-
+//teste
 session_start();
 
 //utilizando "fábrica de conexão"

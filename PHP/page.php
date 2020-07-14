@@ -1,5 +1,5 @@
 <?php
-
+//teste
 setcookie("logado", "Cesar", (time() + (100000000))); //Seta cookie com tempo de 100000000seg
 if (isset($_COOKIE["logado"])) { //sessão logado existe ?
 	echo $_COOKIE["logado"] . "<br>";

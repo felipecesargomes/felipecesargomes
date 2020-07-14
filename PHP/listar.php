@@ -1,4 +1,5 @@
 <?php
+//teste
 session_start();
 include_once("conexaofabrica.php");
 ?>
@@ -14,6 +15,7 @@ include_once("conexaofabrica.php");
   <a href="inserir.php">Cadastrar</a>
 
   <?php
+  //teste
   echo "<h1>Listar usuários</h1>";
   if (isset($_SESSION['msg'])) {
     echo $_SESSION['msg'];
