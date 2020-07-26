@@ -1,0 +1,44 @@
+.topo1 {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.topo2 {
+  width: 100%;
+  background-color: darkcyan;
+}
+
+.topo1-container {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 1080px;  
+  box-sizing: border-box;
+  padding-top: 13px;
+}
+
+.topo1-container a {
+  float: left;
+  display: block;
+}
+
+.topo1-container::before, .topo1-container::after {
+  content: ''; 
+  display: table;
+  clear: both;
+}
+
+.menutopo {
+  display: block;
+  float: left;
+}
+
+.menutopo li {
+  list-style: none;
+  display: inline-block;
+}
+
+.topo2-container {
+  margin: 0 auto;
+  background-color: cornflowerblue;
+  width: 1060px;
+}
