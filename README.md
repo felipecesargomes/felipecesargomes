@@ -10,7 +10,7 @@ Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor
 <img src="https://image.flaticon.com/icons/svg/1803/1803581.svg" alt="desenvolvedor" width="42" height="42" style="border:5px solid black">
       </td>
     <td>
-      Gosto de Desenvolvimento Web
+      Gosto de Desenvolver!
     </td>
     </tr>
     <tr>
