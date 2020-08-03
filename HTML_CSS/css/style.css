@@ -32,12 +32,12 @@ body {
   font-size: 1.125em;
 }
 
-.menu-container {
+.container {
   max-width: 960px;
   margin: 0 auto;
 }
 
-.menu-container::after, .menu-container::before {
+.container::after, .container::before {
   content: '';
   display: table;
   clear: both;
@@ -77,4 +77,25 @@ a.menu-logo {
 .sub-topo p {
   font-style: italic;
   font-size: 1.333em;
+}
+
+.sobre {
+  padding: 60px 0;
+}
+
+.sobre h2 {
+  text-align: center;
+  font-size: 2.25em;
+  margin-bottom: 60px;
+}
+
+.sobre-item {
+  width: 460px;
+  float: left;
+  margin: 0 10px 0 10px;
+}
+
+.sobre-item img {
+  max-width: 100%;
+  display: block;
 }
