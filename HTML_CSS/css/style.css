@@ -80,22 +80,29 @@ a.menu-logo {
 }
 
 .sobre {
-  padding: 60px 0;
+  padding:13px 0;
 }
+
 
 .sobre h2 {
   text-align: center;
   font-size: 2.25em;
-  margin-bottom: 60px;
+  padding: 13px;
+}
+
+.sobre-container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.sobre-container::before, .sobre-container::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .sobre-item {
   width: 460px;
+  margin: 0 10px;
   float: left;
-  margin: 0 10px 0 10px;
-}
-
-.sobre-item img {
-  max-width: 100%;
-  display: block;
 }
