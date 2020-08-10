@@ -106,3 +106,31 @@ a.menu-logo {
   margin: 0 10px;
   float: left;
 }
+
+.sobre-item img {
+  display: block;
+  max-width: 460px;
+}
+
+.sobre-item h3 {
+  font-size: 2.225em;
+  color: #fff;
+  background-color: #252525;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1em;
+  padding: 5px 0 10px 0;
+  position: relative;
+  top: -25px;
+}
+
+.sobre > p {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 460px;
+}
