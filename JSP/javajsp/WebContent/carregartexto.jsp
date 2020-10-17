@@ -8,9 +8,15 @@
 </head>
 <body>
 
-<%
-out.print(request.getParameter("nome"));
+<%!
+int i = 5;
+
+public int retorno(int x) {
+	return x*x;
+}
 %>
+
+<% out.println(i); out.print(retorno(3)); %>
 
 </body>
 </html>

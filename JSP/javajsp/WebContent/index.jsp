@@ -10,6 +10,7 @@
 
 <form action="carregartexto.jsp">
 <input type="text" id="nome" name="nome"></input> 
+<input type="text" id="nome" name="nome2" value="txto"></input> 
 <input type="submit" value="enviar"></input> 
 </form>
 
