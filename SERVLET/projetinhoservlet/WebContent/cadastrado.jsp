@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:url value="/index.jsp" var="telainicial" ></c:url>
+<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+<c:url value="/index.jsp" var="inicio"></c:url>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +10,9 @@
 </head>
 <body>
 
-Médico ${nome} cadastrado com sucesso!
+Empresa ${nome} cadastrado com sucesso!
 
-<br/>
-
-<a href="${telainicial}">Voltar para tela de index</a>
+<a href="${inicio }">Voltar Inicio</a>
 
 </body>
 </html>
