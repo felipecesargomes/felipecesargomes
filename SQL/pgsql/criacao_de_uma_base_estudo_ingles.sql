@@ -27,3 +27,26 @@ end;
 $ins_gatilho2$ language plpgsql;
 
 create trigger ins_gatilho2 before insert on MEANING for each row execute procedure insert_gatilho2();
+
+insert into words (palavra) values ('is');
+insert into meaning (significado, id_words) values ('com',3)
+
+create FUNCTION add_readenglish(palavraw varchar(255)) returns void as $$
+declare word varchar(255);
+declare nid int;
+declare data_reg date;
+declare inteiro int = (select id_words from words where palavra = palavraw);
+begin
+	word := (select palavra from words where id_words = inteiro);
+	nid := (select id_words from words where id_words = inteiro);
+	data_reg := (select now());
+	insert into readenglish (id_words, data_registro, word) values (nid, data_reg, word);
+end;$$ LANGUAGE plpgsql;
+
+create table readenglish (
+	id_readenglish serial primary key,
+	id_words int not null,
+	data_registro date,
+	word varchar(255) not null,
+	constraint fk_id_words foreign key (id_words) references words (id_words)
+)
