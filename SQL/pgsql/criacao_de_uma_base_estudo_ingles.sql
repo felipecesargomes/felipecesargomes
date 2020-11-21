@@ -28,9 +28,6 @@ $ins_gatilho2$ language plpgsql;
 
 create trigger ins_gatilho2 before insert on MEANING for each row execute procedure insert_gatilho2();
 
-insert into words (palavra) values ('is');
-insert into meaning (significado, id_words) values ('com',3)
-
 create FUNCTION add_readenglish(palavraw varchar(255)) returns void as $$
 declare word varchar(255);
 declare nid int;
