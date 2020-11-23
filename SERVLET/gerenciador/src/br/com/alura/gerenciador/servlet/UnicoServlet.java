@@ -2,6 +2,7 @@ package br.com.alura.gerenciador.servlet;
 
 import java.io.IOException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,23 +21,33 @@ public class UnicoServlet extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String acao = request.getParameter("acao");
+		String nome = null;
 		
 		if(acao.equals("novaEmpresa")) {
 			NovaEmpresa novaEmpresa = new NovaEmpresa();
-			novaEmpresa.executa(request, response);
+			nome = novaEmpresa.executa(request, response);
 		}else if(acao.equals("alteraEmpresa")) {
 			AlteraEmpresa alteraEmpresa = new AlteraEmpresa();
-			alteraEmpresa.executar(response, request);
+			nome = alteraEmpresa.executar(response, request);
 		}else if(acao.equals("removeEmpresa")) {
 			RemoveEmpresa removeEmpresa = new RemoveEmpresa();
-			removeEmpresa.executar(request, response);
+			nome = removeEmpresa.executar(request, response);
 		}else if(acao.equals("exibeEmpresa")) {
 			System.out.println("Alterando Empresa");
 			MostraEmpresa mostraEmpresa = new MostraEmpresa();
-			mostraEmpresa.executar(request, response);
-		}else if(acao.equals("listaEmpresa")) {
+			nome = mostraEmpresa.executar(request, response);
+		}else if(acao.equals("listaEmpresas")) {
 			ListaEmpresas listaEmpresas = new ListaEmpresas();
-			listaEmpresas.executar(request, response);
+			nome = listaEmpresas.executar(request, response);
+		}
+		
+		String[] tipoEndereco = nome.split(":");
+		
+		if(tipoEndereco[0].equals("redirect")) {
+			response.sendRedirect(tipoEndereco[1]);
+		} else {
+			RequestDispatcher rd = request.getRequestDispatcher(tipoEndereco[1]);
+			rd.forward(request, response);
 		}
 		
 	}
