@@ -11,8 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.alura.gerenciador.model.Banco;
 import br.com.alura.gerenciador.model.Empresa;
 
-public class ListaEmpresas {
+public class ListaEmpresas implements Acao {
 
+	@Override
 	public String executar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Banco banco = new Banco();
 		List<Empresa> lista = banco.getEmpresas();

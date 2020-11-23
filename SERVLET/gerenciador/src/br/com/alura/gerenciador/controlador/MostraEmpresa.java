@@ -8,8 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.alura.gerenciador.model.Banco;
 import br.com.alura.gerenciador.model.Empresa;
 
-public class MostraEmpresa {
+public class MostraEmpresa implements Acao {
 
+	@Override
 	public String executar(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String paramId = request.getParameter("id");
