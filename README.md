@@ -21,6 +21,8 @@ Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor
         Gosto de aprender coisas novas!
       </td>
     </tr>
-  
-  </table>
-  
+</table>
+
+### Experiências Profissionais
+
+Trabalhei como suporte de TI em um escritório de Advocacia e atuei como Analista de Dados por quase 2 anos. Atualmente venho me especializando em Desenvolvimento Web.
