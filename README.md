@@ -2,7 +2,7 @@
 
 ### Quem sou eu?
 
-Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor do que era ontem :grinning:.
+Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor do que era ontem :grinning:. Sou um eterno estudante, procuro sempre aprender com foco principalmente no que tange Desenvolvimento Web. Alimento no meu github todos os meus estudos nessa área e todos os projetos feitos.
 
 <table>
   <tr>
