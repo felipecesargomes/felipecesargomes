@@ -15,8 +15,9 @@
 	Status Social:<input type="text" name="status" />
 	Data Nascimento:<input type="text" name="data" />
 	Nacionalidade:<input type="text" name="nacionalidade" />
-	<input type="submit" value="Enviar" />
 	<input type="hidden" name="acao" value="CadastroPessoa" />
+	<input type="submit" value="Enviar" />
+	
 </form>
 
 </body>

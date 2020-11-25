@@ -18,9 +18,14 @@ public class FactorySeasson {
 	public static Connection pegarConexao() {
 		if(conn==null) {
 			try {
+				Class.forName("org.postgresql.Driver");
 				conn = DriverManager.getConnection(url, user, password);
 				System.out.println("Conexão realizada com sucesso!");
+				conn.setAutoCommit(false);
 			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}

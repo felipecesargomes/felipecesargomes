@@ -30,8 +30,8 @@ public class Pessoa {
 	public Date getData() {
 		return dataNascimento;
 	}
-	public void setData(Date data) {
-		this.dataNascimento = data;
+	public void setData(Date dataNascimentoPessoa) {
+		this.dataNascimento = dataNascimentoPessoa;
 	}
 
 }
