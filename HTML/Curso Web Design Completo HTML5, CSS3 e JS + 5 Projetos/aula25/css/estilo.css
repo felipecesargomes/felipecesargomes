@@ -1,0 +1,38 @@
+
+body {
+  margin: 0px;
+  background: #ccc;
+}
+
+.topo-pagina {
+  background-image: url(../img/bg-3.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center right;
+}
+
+.texto-central-topo {
+  text-align: center;
+  color: white;
+  margin: 150px;
+}
+
+.texto-central-topo h1 {
+  text-transform: uppercase;
+  text-shadow: 3px 2px 3px black;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+main {
+  width: 80%;
+  margin: 15px auto;
+}
+
+section {
+  background: #FFF;
+}
+
+.card {
+  margin: 10px;
+}
