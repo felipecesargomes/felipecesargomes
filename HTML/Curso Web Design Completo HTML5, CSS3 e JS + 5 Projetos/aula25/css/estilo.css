@@ -30,9 +30,32 @@ main {
 }
 
 section {
-  background: #FFF;
+  background: #FFF; 
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .card {
-  margin: 10px;
+  margin-top: 20px;
+}
+
+.cabecalho_article {
+  background-color: #ccc;
+  border-bottom: 3px solid dimgray;
+  padding: 10px;
+}
+
+.cabecalho_article h2 {
+  margin: 0;
+}
+
+footer {
+  background-color: gray;
+  text-shadow: 2px 2px 2px #000000;
+  font-size: 16px;
+  font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #FFF;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
 }
