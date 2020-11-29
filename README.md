@@ -26,7 +26,3 @@ Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor
 ### Tecnologias
 
 <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"/> <img src="https://img.icons8.com/color/48/000000/linux.png"/> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
-
-### Experiências Profissionais
-
-Trabalhei como suporte de TI em um escritório de Advocacia e atuei como Analista de Dados por quase 2 anos. Atualmente venho me especializando em Desenvolvimento Web.
