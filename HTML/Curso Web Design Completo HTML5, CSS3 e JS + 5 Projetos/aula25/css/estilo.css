@@ -1,88 +1,83 @@
-
 body {
-  margin: 0px;
-  background: #ccc;
+  margin: 0;
+  background-color: #ccc;
 }
 
 .topo-pagina {
-  background-image: url(../img/bg-3.jpg);
   height: 500px;
+  background: url(../img/bg-3.jpg);
   background-size: cover;
   background-position: center right;
   border-top: 1px solid transparent;
 }
 
 .texto-central-topo {
+  font-size: 20px;
   text-align: center;
-  color: white;
-  margin: 150px;
+  margin-top: 150px;
 }
 
 .texto-central-topo h1 {
   text-transform: uppercase;
-  text-shadow: 3px 2px 3px black;
-  font-family: sans-serif;
-  font-size: 50px;
+  text-shadow: 2px 2px 3px white;
+}
+
+.texto-central-topo p {
+  text-transform: uppercase;
+}
+
+.topo-pagina ul {
+  text-align: right;
+  margin: 10px 30px 0 0;
+}
+
+.topo-pagina nav ul li {
+  display: inline-block;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.topo-pagina a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px;
+  display: block;
+  background-color: rgb(0,0,0,0.3);
+}
+
+.topo-pagina a:hover {
+  background-color: rgb(0,0,0,0.5);
 }
 
 main {
   width: 80%;
-  margin: 15px auto;
-}
-
-section {
-  background: #FFF; 
-  margin-top: 10px;
-  padding: 10px;
+  margin: 10px auto;
 }
 
 .card {
   margin-top: 20px;
 }
 
+.sec {
+  background-color: white;
+}
+
 .cabecalho_article {
   background-color: #ccc;
-  border-bottom: 3px solid dimgray;
   padding: 10px;
+  border-bottom: 2px solid grey;  
 }
 
 .cabecalho_article h2 {
-  margin: 0;
-}
-
-.topo-pagina nav ul {
-  text-align: right;
-  margin: 20px 50px 0 0;
-  
-}
-
-.topo-pagina nav li {
-  display: inline-block;
-  list-style: none;
-  margin-left: 10px;
-  border: 1px solid #FFF;
-}
-
-.topo-pagina nav li a { 
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  background-color: rgb(0,0,0,0.3);
-  padding: 15px;
-}
-
-.topo-pagina nav li a:hover {
-  background-color: rgb(0,0,0,0.5);
+    margin: 0px;
 }
 
 footer {
   background-color: gray;
-  text-shadow: 2px 2px 2px #000000;
-  font-size: 16px;
-  font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #FFF;
+  height: 50px;
   text-align: center;
-  height: 80px;
-  line-height: 80px;
+  line-height: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
