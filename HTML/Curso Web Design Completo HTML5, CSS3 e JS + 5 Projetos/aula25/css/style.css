@@ -1,78 +1,79 @@
 body {
+  margin: 0;
   background-color: #ccc;
-  margin: 0px;
 }
 
-.topo_pagina {
-  background-color: indianred;
-  height: 250px;
+header {
+  height: 200px;
+  background-color: orange;
   border-top: 1px solid transparent;
 }
 
-.topo_pagina ul {
+header ul {
   text-align: right;
-  margin: 10px;
 }
 
-.topo_pagina li {
-  text-decoration: none;
-  list-style: none;
+header li {
   display: inline-block;
   border: 1px solid white;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
-.topo_pagina a {
-  text-transform: uppercase;
-  padding: 10px;
+header a {
   display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
   background-color: rgb(0,0,0,0.3);
   color: white;
-  text-decoration: none;
 }
 
-.topo_pagina a:hover {
+header a:hover {
   background-color: rgb(0,0,0,0.5);
 }
 
-.topo_pagina h1 {
-  text-align: center;
+header h1 {
   text-shadow: 2px 2px 2px white;
-  font-family: sans-serif;
-  font-size: 50px;
-  margin-bottom: 2px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.topo_pagina p {
+header p {
   text-align: center;
+  text-transform: uppercase;
 }
 
 main {
   width: 80%;
   margin: 10px auto;
+
 }
 
 .sec {
   background-color: white;
-  padding: 10px;
+}
+
+.card {
   margin: 10px;
 }
 
+article {
+  padding: 10px;
+}
 .cabecalho_article {
   background-color: #ccc;
-  border-bottom: 2px solid gray;
+  border-bottom:1px solid gray;
 }
 
 .cabecalho_article h2 {
-  margin: 0;
-  padding: 10px;
+  margin:0;
 }
 
 footer {
-  height: 50px;
-  background-color: gray;
+  background-color: blue;
+  font-family: sans-serif;
   line-height: 50px;
+  height:50px;
   text-align: center;
   text-shadow: 2px 2px 2px white;
-  color: #fff;
 }
