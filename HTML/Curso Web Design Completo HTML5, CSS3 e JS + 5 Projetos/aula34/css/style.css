@@ -4,18 +4,18 @@ body {
 
 header {
   height: 150px;
-  background-color:blue;
+  background-color: blue;
 }
 
 nav {
   background-color: orange;
-  height: 400px;
+  height: 800px;
   width: 20%;
   float: left;
 }
 
 main {
-  height: 550px;
+  height: 800px;
   width: 80%;
   background-color: yellow;
   float: right;
@@ -25,4 +25,7 @@ footer {
   background-color: saddlebrown;
   height: 80px;
   clear: both;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
