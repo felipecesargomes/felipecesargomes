@@ -15,7 +15,7 @@ Meu nome é Felipe César, e meu objetivo :dart: é ser cada dia um pouco melhor
     </tr>
     <tr>
       <td>
-        <img src="https://img2.gratispng.com/20180712/pl/kisspng-computer-icons-big-data-clip-art-learn-more-5b47d641892366.2222631315314345615617.jpg" alt="aprender" width="42" height="42" style="border:5px solid black"> 
+        <img src="https://www.pinclipart.com/picdir/middle/333-3333863_aprender-png-clipart.png" alt="aprender" width="42" height="42" style="border:5px solid black"> 
       </td>
       <td>
         Gosto de aprender coisas novas!
