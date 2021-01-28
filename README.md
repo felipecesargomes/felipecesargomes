@@ -4,6 +4,8 @@
 
 Meu nome é Felipe César, sou desenvolvedor, e meu objetivo :dart: é ser cada dia um pouco melhor do que era ontem :grinning:. Sou um eterno estudante, procuro sempre aprender com foco principalmente no que tange Desenvolvimento Web. Alimento o meu github com todos os meus estudos/projetos feitos nessa área.
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+
 <table>
   <tr>
     <td>
