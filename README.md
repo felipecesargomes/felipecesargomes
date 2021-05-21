@@ -2,7 +2,7 @@
 
 ### Quem sou eu?
 
-Meu nome é Felipe César, sou desenvolvedor, e meu objetivo :dart: é ser cada dia um pouco melhor do que era ontem :grinning:. Procuro sempre aprender coisas novas.
+Meu nome é Felipe César, sou desenvolvedor/programador, e meu objetivo :dart: é ser cada dia um pouco melhor do que era ontem :grinning:. Procuro sempre aprender coisas novas.
 
 <table>
   <tr>
