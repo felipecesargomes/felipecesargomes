@@ -2,7 +2,7 @@
 
 ### Quem sou eu?
 
-Meu nome é Felipe César, sou desenvolvedor/programador. Procuro sempre aprender coisas novas e uso esse espaço pra compartilhar códigos e o que eu ando aprendendo por aí.
+Meu nome é Felipe César. Procuro sempre aprender coisas novas e uso esse espaço pra compartilhar códigos e o que eu ando aprendendo por aí.
 
 <table>
   <tr>
