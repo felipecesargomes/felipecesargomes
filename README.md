@@ -15,7 +15,7 @@ Meu nome é Felipe César. Procuro sempre aprender coisas novas e uso esse espa�
     </tr>
     <tr>
       <td>
-        <img src="https://www.flaticon.com/svg/static/icons/svg/2152/2152424.svg" alt="aprender" width="42" height="42" style="border:5px solid black"> 
+        <img src="![image](https://user-images.githubusercontent.com/58090526/133172330-9da20d16-826f-40d9-857a-f3efadab2594.png)" alt="aprender" width="42" height="42" style="border:5px solid black"> 
       </td>
       <td>
         Gosto de aprender coisas novas!
