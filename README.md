@@ -4,7 +4,7 @@
 
 Meu nome é Felipe César. Bem vindo ao meu repositório.
 
-### Estatísticas
+## Estatísticas
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=felipecesargomes&show_icons=true&theme=default" alt="Felipe César GitHub stats" />
