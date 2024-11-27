@@ -19,8 +19,8 @@ Meu nome é Felipe César. Bem vindo ao meu repositório.
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=felipecesargomes&show_icons=true&hide_border=true&count_private=true&bg_color=45,ff512f,dd2476&title_color=ffffff&text_color=ffffff&icon_color=79ff97&rank_icon=github" alt="Felipe César GitHub stats" width="495" height="200" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipecesargomes&layout=compact&hide_border=true&bg_color=45,2193b0,6dd5ed&title_color=ffffff&text_color=ffffff&icon_color=79ff97" alt="Top Langs" width="495" height="200" />
+  <img src="https://github-readme-stats.vercel.app/api?username=felipecesargomes&show_icons=true&hide_border=true&count_private=true&bg_color=45,ff512f,dd2476&title_color=ffffff&text_color=ffffff&icon_color=79ff97&rank_icon=github" alt="Felipe César GitHub stats" width="50%" height="200" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipecesargomes&layout=compact&hide_border=true&bg_color=45,2193b0,6dd5ed&title_color=ffffff&text_color=ffffff&icon_color=79ff97" alt="Top Langs" width="48%" height="200" />
 </p>
 
 
