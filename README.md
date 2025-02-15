@@ -24,5 +24,14 @@ Meu nome é Felipe César. Bem vindo ao meu repositório.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipecesargomes&layout=compact&hide_border=true&bg_color=45,2193b0,6dd5ed&title_color=ffffff&text_color=ffffff&icon_color=79ff97" alt="Top Langs" width="49%" height="200" />
 </p>
 
+## Entre em contato comigo
 
-
+<a href="www.linkedin.com/in/felipegna" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:SEU_EMAIL@EXEMPLO.COM" target="_blank">
+  <img src="https://img.shields.io/badge/Email-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://www.instagram.com/SEU_PERFIL_INSTAGRAM" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
