@@ -22,6 +22,3 @@ Meu nome é Felipe César. Bem vindo ao meu repositório.
 <a href="mailto:flcesar7@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Email-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<a href="https://www.instagram.com/instagram0938923" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
