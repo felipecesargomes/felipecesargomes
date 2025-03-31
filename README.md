@@ -2,7 +2,7 @@
 
 ### Quem sou eu?
 
-Meu nome é Felipe César. Bem vindo ao meu repositório.<br/>
+Meu nome é Felipe César. Bem vindo ao meu repositório.<br/><br/>
 💻 Desenvolvedor Backend<br/>
 🎓 Sistemas de Informação
 
