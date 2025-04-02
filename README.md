@@ -4,8 +4,7 @@
 
 Meu nome é Felipe César. Bem vindo ao meu repositório.<br/><br/>
 💻 Desenvolvedor Backend<br/>
-🎓 Sistemas de Informação
-
+🎓 Sistemas de Informação<br/>
 
 ## Estatísticas
 
